@@ -119,12 +119,14 @@
 	}
 	&-events {
 		margin: 30px auto;
-		
 		p {
 			margin: 0;
 		}
 		h3 {
 			margin-bottom: 3px;
+		}
+		&.rwd {
+			display: none;
 		}
 	}
 	&-form {
@@ -198,6 +200,36 @@
 		}
 		
 	}
+}
+.navbar-default {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	background: #edede5;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	  background-color: #888;
+}
+.navbar-default .navbar-toggle {
+	border-color: #454545;
+	
+}
+.navbar-default .navbar-nav>li>a {
+	&:hover,&:focus {
+		color: #555;
+		background-color: #e7e7e7;
+		&:after {
+			content: none;
+		}
+	}
+	
+}
+.navbar-default .navbar-nav>li>a {
+	position: relative;
+	display: block;
+	text-align: left;
 }
 .price {
 	color: #6f6a67;

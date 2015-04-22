@@ -3,24 +3,234 @@
 	.container {
 		width: 970px;
 	}
+	.navbar.navbar-default {
+		display: none;
+	}
+	body .my-form {
+		.form-group.rwd {
+			display: block;
+		}
+		.form-group.dsk {
+			display: none;
+			text-align: center;
+		}
+	}
 }
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+	.navbar.navbar-default {
+		display: none;
+	}
+	body .my-form {
+		.form-group.rwd {
+			display: block;
+		}
+		.form-group.dsk {
+			display: none;
+			text-align: center;
+		}
+	}
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	
+	.navbar.navbar-default {
+		display: none;
+	}
+	body .my-form {
+		.form-group.rwd {
+			display: block;
+		}
+		.form-group.dsk {
+			display: none;
+			text-align: center;
+		}
+	}
 }
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 481px) and (max-width: 767px) {
-	
+	body .my-navigation {
+		display: none;
+	}
+	body .navbar-default .my-navigation {
+		display: block;
+	}
+	.header {
+		padding-top: 62px;
+		text-align: center;
+		.text-right {
+			text-align: center;
+		}
+	}
+	 body .pull-right.rwd {
+		float: none !Important;
+		.pull-left {
+			float: none !Important;
+		}
+		
+		.my-pagination {
+			display:table;
+			margin: 5px auto;
+		}
+		.my-btn-second {
+			display:table;
+			margin: 15px auto 0;
+		}
+	 }
+	 .content .shop-item {
+		display:table;
+		margin-left: auto;
+		margin-right: auto;
+	 }
+	.content .main-title {
+		img {
+			width: 100%;
+		}
+	}
+	.my-photo-block {
+		margin: 30px;
+	}
+	body .my-events {
+		display: none;
+	}
+	body .my-events.rwd {
+		display: block;
+	}
+	.content .img-pagination .border {
+		border: none;
+	}
+	.content .img-pagination .padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	body .card-form .my-btn {
+		display:table;
+		margin: 0 auto 10px;
+	}
+	.content .bread-crumbs {
+		display:table;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.footer,
+	.content .side-navigation,
+	.content .category {
+		text-align: center;
+	}
+	body .my-form {
+		.form-group.rwd {
+			display: none;
+		}
+		.form-group.dsk {
+			display: block;
+			text-align: center;
+		}
+	}
+	body .my-form .my-btn {
+		margin-top: 0;
+		width: 100%;
+	}
+	body .my-form .form-group {
+		margin-bottom: 15px;
+	}
+	.content .address {
+		margin-top: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-	
+	body .my-navigation {
+		display: none;
+	}
+	body .navbar-default .my-navigation {
+		display: block;
+	}
+	.header {
+		padding-top: 62px;
+		text-align: center;
+		.text-right {
+			text-align: center;
+		}
+	}
+	  body .pull-right.rwd {
+		float: none !Important;
+		.pull-left {
+			float: none !Important;
+		}
+		
+		.my-pagination {
+			display:table;
+			margin: 5px auto;
+		}
+		.my-btn-second {
+			display:table;
+			margin: 15px auto 0;
+		}
+	 }
+	 .content .shop-item {
+		display:table;
+		margin-left: auto;
+		margin-right: auto;
+	 }
+	.content .main-title {
+		img {
+			width: 100%;
+		}
+	}
+	.my-photo-block {
+		margin: 30px;
+	}
+	body .my-events {
+		display: none;
+	}
+	body .my-events.rwd {
+		display: block;
+	}
+	.content .img-pagination .border {
+		border: none;
+	}
+	.content .img-pagination .padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	body .card-form .my-btn {
+		display:table;
+		margin: 0 auto 10px;
+	}
+	.content .bread-crumbs {
+		display:table;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.footer,
+	.content .side-navigation,
+	.content .category {
+		text-align: center;
+	}
+	body .my-form {
+		.form-group.rwd {
+			display: none;
+		}
+		.form-group.dsk {
+			display: block;
+			text-align: center;
+		}
+	}
+	body .my-form .my-btn {
+		margin-top: 0;
+		width: 100%;
+	}
+	body .my-form .form-group {
+		margin-bottom: 15px;
+	}
+	.content .address {
+		margin-top: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
 }
 @media (max-width: 360px) {
 	
